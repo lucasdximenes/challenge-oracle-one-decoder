@@ -102,6 +102,9 @@ body {
 .output-container {
   background-color: #ffffff;
   border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .output-container p {
@@ -112,6 +115,13 @@ body {
   line-height: 36px;
   color: #495057;
   padding: 20px;
+}
+
+.btn-copy {
+  background-color: #ffffff;
+  color: #0a3871;
+  border: 1px solid #0a3871;
+  align-self: center;
 }
 
 @media only screen and (max-width: 768px) {
