@@ -11,7 +11,44 @@
     <script src="./js/script.js" defer></script>
     <!-- Link Favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
     <title>Challenge Oracle ONE - Decoder</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <div class="input-container-input">
+          <textarea
+            name="input"
+            id="input"
+            cols="30"
+            rows="10"
+            placeholder="Type your text"
+          ></textarea>
+        </div>
+        <div class="buttons-container">
+          <div class="buttons-container-info">
+            <i>!</i>
+            <p>Only lowercase letters and no special characters or numbers.</p>
+          </div>
+          <div class="buttons-container-buttons">
+            <button id="btn-encrypt" class="btn btn-encrypt">Encrypt</button>
+            <button id="btn-decrypt" class="btn btn-decrypt">Decrypt</button>
+          </div>
+        </div>
+      </div>
+      <div class="output-container">
+        <p class="no-text">
+          Nothing to show yet. <br />
+          Type your text and click on the buttons above.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
