@@ -48,12 +48,12 @@ The application must be able to encrypt and decrypt messages using the keys abov
 
 - Build page elements
 
-  - [ ] Page title
-  - [ ] Input to enter text to be encrypted or decrypted
-  - [ ] Button to encrypt
-  - [ ] Button to decrypt
-  - [ ] Area to display encrypted or decrypted text
-  - [ ] Button to copy encrypted or decrypted text
+  - [x] Page title
+  - [x] Input to enter text to be encrypted or decrypted
+  - [x] Button to encrypt
+  - [x] Button to decrypt
+  - [x] Area to display encrypted or decrypted text
+  - [x] Button to copy encrypted or decrypted text
 
 - Create functions to encrypt and decrypt
   - [ ] Create function to encrypt
