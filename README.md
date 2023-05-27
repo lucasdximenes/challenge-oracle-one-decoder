@@ -31,8 +31,8 @@ The application must be able to encrypt and decrypt messages using the keys abov
 
 ## TODO
 
-- [ ] Create a repository on GitHub
-- [ ] Put the project on GitHub Pages
+- [x] Create a repository on GitHub
+- [x] Put the project on GitHub Pages
 - [x] Create a README.md file
 - [x] Create .gitignore
 - [x] Create folder architecture
@@ -56,6 +56,6 @@ The application must be able to encrypt and decrypt messages using the keys abov
   - [x] Button to copy encrypted or decrypted text
 
 - Create functions to encrypt and decrypt
-  - [ ] Create function to encrypt
-  - [ ] Create function to decrypt
-  - [ ] Create function to copy encrypted or decrypted text
+  - [x] Create function to encrypt
+  - [x] Create function to decrypt
+  - [x] Create function to copy encrypted or decrypted text
